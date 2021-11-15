@@ -65,3 +65,39 @@
 // console.log(arr6);
 // const arr7 = [...arr4, ...arr5];
 // console.log(arr7);
+
+//map関数
+//const nameArr = ["田中", "佐藤", "又吉"];
+// const namenameArr = [];
+// for(let index=0 ; index<nameArr.length ; index++){
+//   namenameArr.push(nameArr[index]);
+// }
+// console.log(namenameArr);
+
+// const nameArr2 = nameArr.map((name) => {
+//   return console.log(name);
+// })
+
+//nameArr.map((name) => console.log(name));
+//何番目？を使うときは、indexを用いる
+//nameArr.map((name, index) => console.log(`${index + 1}番目は${name}です。`));
+
+//又吉以外に「〜さん」をつける
+// const nameSonkeigoArr = nameArr.map((name) => {
+//   if(name === "又吉"){
+//     return name;
+//   } else {
+//     return `${name}さん`
+//   }
+// })
+// console.log(nameSonkeigoArr);
+
+//fillter関数
+// const numArr = [1, 2, 3, 4, 5];
+// const numKisuuAree = numArr.filter((num) => {
+//   return num % 2 === 1;
+// })
+// console.log(numKisuuAree);
+
+//参考演算し
+//ある条件　？　条件がtrue ：　　false;
